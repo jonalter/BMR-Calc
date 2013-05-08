@@ -18,6 +18,9 @@
 		E5CF9DEC172FA8D300B38FA6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CF9DEB172FA8D300B38FA6 /* Default-568h@2x.png */; };
 		E5CF9DEF172FA8D300B38FA6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5CF9DED172FA8D300B38FA6 /* MainStoryboard.storyboard */; };
 		E5CF9DF2172FA8D300B38FA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CF9DF1172FA8D300B38FA6 /* ViewController.m */; };
+		E5CF9DF9172FA8EA00B38FA6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CF9DF8172FA8EA00B38FA6 /* Icon.png */; };
+		E5CF9DFB172FA8F200B38FA6 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CF9DFA172FA8F200B38FA6 /* Icon@2x.png */; };
+		E5CF9DFD172FA90200B38FA6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CF9DFC172FA90100B38FA6 /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		E5CF9DEE172FA8D300B38FA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		E5CF9DF0172FA8D300B38FA6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E5CF9DF1172FA8D300B38FA6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E5CF9DF8172FA8EA00B38FA6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		E5CF9DFA172FA8F200B38FA6 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		E5CF9DFC172FA90100B38FA6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 		E5CF9DC9172FA8D200B38FA6 = {
 			isa = PBXGroup;
 			children = (
+				E5CF9DFC172FA90100B38FA6 /* Default.png */,
+				E5CF9DFA172FA8F200B38FA6 /* Icon@2x.png */,
+				E5CF9DF8172FA8EA00B38FA6 /* Icon.png */,
 				E5CF9DDB172FA8D200B38FA6 /* BMR Calc */,
 				E5CF9DD4172FA8D200B38FA6 /* Frameworks */,
 				E5CF9DD3172FA8D200B38FA6 /* Products */,
@@ -163,6 +172,9 @@
 				E5CF9DEA172FA8D300B38FA6 /* Default@2x.png in Resources */,
 				E5CF9DEC172FA8D300B38FA6 /* Default-568h@2x.png in Resources */,
 				E5CF9DEF172FA8D300B38FA6 /* MainStoryboard.storyboard in Resources */,
+				E5CF9DF9172FA8EA00B38FA6 /* Icon.png in Resources */,
+				E5CF9DFB172FA8F200B38FA6 /* Icon@2x.png in Resources */,
+				E5CF9DFD172FA90200B38FA6 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

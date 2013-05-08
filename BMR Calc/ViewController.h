@@ -9,5 +9,28 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    
+    IBOutlet UISegmentedControl *sex;
+    IBOutlet UITextField *miffEEN;
+    IBOutlet UITextField *miffBMR;
+    IBOutlet UITextField *height;
+    IBOutlet UITextField *weight;
+    IBOutlet UITextField *age;
+    IBOutlet UITextField *stressFactor;
+}
 
+
+@property (retain, nonatomic) IBOutlet UITextField *height;
+@property (retain, nonatomic) IBOutlet UITextField *weight;
+@property (retain, nonatomic) IBOutlet UITextField *age;
+@property (retain, nonatomic) IBOutlet UITextField *stressFactor;
+@property (retain, nonatomic) IBOutlet UITextField *miffBMR;
+@property (retain, nonatomic) IBOutlet UITextField *miffEEN;
+@property (strong, nonatomic) IBOutlet UISegmentedControl *sex;
+
+
+
+- (IBAction)calculate;
+- (IBAction)clear;
 @end
