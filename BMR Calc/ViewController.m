@@ -22,6 +22,8 @@
 @synthesize miffBMR;
 @synthesize miffEEN;
 @synthesize sex;
+@synthesize miffEEN_1;
+@synthesize miffEEN_2;
 
 - (IBAction)calculate
 {
@@ -31,13 +33,23 @@
     double s = [stressFactor.text doubleValue];
     
     double maleMiff = (10*w)+(6.25*(h*2.54))-(5*a)+5;
-    double maleEEN = maleMiff*s;
+    double maleMiffEEN = maleMiff*s;
+    
+    // double maleHarr = 66.5+(13.75*w)+(5.003*(h*2.54))-(6.775*a);
+    // double maleHarrEEN = maleHarr*s;
+    
+    // double femaleMiff = (10*w)+(6.25*(h*2.54))-(5*a)-161;
+    // double femaleMiffEEN = femaleMiff*s;
+    
+    // double femaleHarr = 655.1+(9.563*w)+(1.85*(h*2.54))-(4.676*a);
+    // double femaleHarrEEN = femaleHarr*s;
     
     miffBMR.text = [[NSString alloc] initWithFormat:@"%4.f", maleMiff];
-    miffEEN.text = [[NSString alloc] initWithFormat:@"%3.f", maleEEN];
+    miffEEN.text = [[NSString alloc] initWithFormat:@"%3.f", maleMiffEEN];
     
-//    NSString *totalString = [NSString stringWithFormat:@"%f", maleMiff];
-  //  _miffBMR.text = totalString;
+    miffEEN_1.text = [[NSString alloc] initWithFormat:@"%4.f", maleMiffEEN-maleMiffEEN*.1];
+    miffEEN_2.text = [[NSString alloc] initWithFormat:@"%4.f", maleMiffEEN+maleMiffEEN*.1];
+
 }
 
 - (void)viewDidLoad

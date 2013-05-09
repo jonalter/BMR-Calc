@@ -11,6 +11,8 @@
 @interface ViewController : UIViewController
 {
     
+    IBOutlet UITextField *miffEEN_2;
+    IBOutlet UITextField *miffEEN_1;
     IBOutlet UISegmentedControl *sex;
     IBOutlet UITextField *miffEEN;
     IBOutlet UITextField *miffBMR;
@@ -28,6 +30,8 @@
 @property (retain, nonatomic) IBOutlet UITextField *miffBMR;
 @property (retain, nonatomic) IBOutlet UITextField *miffEEN;
 @property (strong, nonatomic) IBOutlet UISegmentedControl *sex;
+@property (strong, nonatomic) IBOutlet UITextField *miffEEN_1;
+@property (strong, nonatomic) IBOutlet UITextField *miffEEN_2;
 
 
 
