@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE11975117433FA800AC426E /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE11975017433FA800AC426E /* ResultsViewController.m */; };
 		E5CF9DD6172FA8D200B38FA6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5CF9DD5172FA8D200B38FA6 /* UIKit.framework */; };
 		E5CF9DD8172FA8D200B38FA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5CF9DD7172FA8D200B38FA6 /* Foundation.framework */; };
 		E5CF9DDA172FA8D200B38FA6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5CF9DD9172FA8D200B38FA6 /* CoreGraphics.framework */; };
@@ -24,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE11974F17433FA800AC426E /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		CE11975017433FA800AC426E /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
 		E5CF9DD2172FA8D200B38FA6 /* BMR Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMR Calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5CF9DD5172FA8D200B38FA6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E5CF9DD7172FA8D200B38FA6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -97,6 +100,8 @@
 				E5CF9DED172FA8D300B38FA6 /* MainStoryboard.storyboard */,
 				E5CF9DF0172FA8D300B38FA6 /* ViewController.h */,
 				E5CF9DF1172FA8D300B38FA6 /* ViewController.m */,
+				CE11974F17433FA800AC426E /* ResultsViewController.h */,
+				CE11975017433FA800AC426E /* ResultsViewController.m */,
 				E5CF9DDC172FA8D200B38FA6 /* Supporting Files */,
 			);
 			path = "BMR Calc";
@@ -188,6 +193,7 @@
 				E5CF9DE2172FA8D200B38FA6 /* main.m in Sources */,
 				E5CF9DE6172FA8D200B38FA6 /* AppDelegate.m in Sources */,
 				E5CF9DF2172FA8D300B38FA6 /* ViewController.m in Sources */,
+				CE11975117433FA800AC426E /* ResultsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +316,7 @@
 				E5CF9DF7172FA8D300B38FA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

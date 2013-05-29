@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "AppDelegate.h"
+#import "ResultsViewController.h"
 
 @interface ViewController ()
 
@@ -44,12 +45,32 @@
     // double femaleHarr = 655.1+(9.563*w)+(1.85*(h*2.54))-(4.676*a);
     // double femaleHarrEEN = femaleHarr*s;
     
-    miffBMR.text = [[NSString alloc] initWithFormat:@"%4.f", maleMiff];
-    miffEEN.text = [[NSString alloc] initWithFormat:@"%3.f", maleMiffEEN];
+//    miffBMR.text = [[NSString alloc] initWithFormat:@"%4.f", maleMiff];
+//    miffEEN.text = [[NSString alloc] initWithFormat:@"%3.f", maleMiffEEN];
+//    
+//    miffEEN_1.text = [[NSString alloc] initWithFormat:@"%4.f", maleMiffEEN-maleMiffEEN*.1];
+//    miffEEN_2.text = [[NSString alloc] initWithFormat:@"%4.f", maleMiffEEN+maleMiffEEN*.1];
     
-    miffEEN_1.text = [[NSString alloc] initWithFormat:@"%4.f", maleMiffEEN-maleMiffEEN*.1];
-    miffEEN_2.text = [[NSString alloc] initWithFormat:@"%4.f", maleMiffEEN+maleMiffEEN*.1];
+    // Save formated string value here
+    miffBMRvalue = [[NSString alloc] initWithFormat:@"%4.f", maleMiff];
 
+}
+
+- (IBAction)clear
+{
+    
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    // We named our segue so we could identify it here
+    if([segue.identifier isEqualToString:@"showResultsSegue"]){
+        // Grab the desination controller which is the "ResultsViewController" in this case
+        ResultsViewController *destViewController = segue.destinationViewController;
+        
+        // Set the properties that we have exposed on the controller with the value we want to pass
+        destViewController.miffBMR = miffBMRvalue;
+        
+    }
 }
 
 - (void)viewDidLoad

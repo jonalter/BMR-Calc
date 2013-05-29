@@ -14,12 +14,17 @@
     IBOutlet UITextField *miffEEN_2;
     IBOutlet UITextField *miffEEN_1;
     IBOutlet UISegmentedControl *sex;
-    IBOutlet UITextField *miffEEN;
-    IBOutlet UITextField *miffBMR;
+//    IBOutlet UITextField *miffEEN;
+//    IBOutlet UITextField *miffBMR;
     IBOutlet UITextField *height;
     IBOutlet UITextField *weight;
     IBOutlet UITextField *age;
     IBOutlet UITextField *stressFactor;
+    
+@private
+    // We don't need these to be usable outside this class so we make them private
+    NSString *miffBMRvalue;
+    NSString *miffEENvalue;
 }
 
 
